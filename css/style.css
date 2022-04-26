@@ -1,0 +1,26 @@
+/************************************** DESKTOP VIEW ****************************************/
+body {
+    background: #296CA8;
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap:42px;
+    max-width: 802px;
+    height: 100vh;
+}
+.heading-1{
+
+}
+
+/************************************** MOBILE VIEW *****************************************/
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        padding: 0 20px;
+    }
+}
